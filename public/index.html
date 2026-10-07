@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="모터보드 — 차량 정보와 판매자의 이야기를 한눈에 살펴보는 중고차 게시판">
+  <title>모터보드 — 다음 드라이브의 시작</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/js/list.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 이동</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/" aria-label="모터보드 홈"><span class="brand-mark" aria-hidden="true">m<span>·</span></span><span>MOTORBOARD</span></a>
+      <nav aria-label="주 메뉴"><a class="nav-link current" href="/" aria-current="page">차량 둘러보기</a></nav>
+      <span class="demo-label">CLASS PROJECT</span>
+    </div>
+  </header>
+  <main id="main" class="container">
+    <section class="intro" aria-labelledby="page-title">
+      <div><p class="eyebrow">THE NEXT CHAPTER, ON WHEELS</p><h1 id="page-title">다음 드라이브의 시작<span>.</span></h1><p class="intro-copy">마음에 드는 차를 만나고, 새로운 이야기를 시작하세요.</p></div>
+      <div class="intro-note"><span class="note-number">01 /</span><p>차량을 둘러보고<br>판매자의 이야기를 확인하세요.</p></div>
+    </section>
+    <section class="inventory" aria-labelledby="inventory-title">
+      <div class="section-heading"><h2 id="inventory-title">등록된 차량 <span id="car-count" class="count">—</span></h2><span class="section-note">각 차량의 상세 정보를 확인해 보세요</span></div>
+      <div id="list-status" class="state-panel" role="status" aria-live="polite"><span class="loader" aria-hidden="true"></span><h3>차량을 불러오고 있어요</h3><p>잠시만 기다려 주세요.</p></div>
+      <div id="car-grid" class="car-grid" hidden></div>
+      <noscript><p class="state-panel">차량 목록을 확인하려면 브라우저에서 JavaScript를 허용해 주세요.</p></noscript>
+    </section>
+    <aside class="notice"><span class="notice-icon" aria-hidden="true">i</span><p>학습용 가상 매물입니다. 차량 정보와 판매자 정보는 예시이며, 이미지는 설명용 일러스트입니다.</p></aside>
+  </main>
+  <footer class="site-footer container"><a class="footer-brand" href="/">MOTORBOARD<span> / </span>모터보드</a><p>공개SW 실무 · AI 코딩 실습</p></footer>
+</body>
+</html>

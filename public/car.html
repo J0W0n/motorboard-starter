@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>차량 상세 — 모터보드</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/js/detail.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 이동</a>
+  <header class="site-header"><div class="container header-inner">
+    <a class="brand" href="/" aria-label="모터보드 홈"><span class="brand-mark" aria-hidden="true">m<span>·</span></span><span>MOTORBOARD</span></a>
+    <nav aria-label="주 메뉴"><a class="nav-link" href="/">차량 둘러보기</a></nav><span class="demo-label">CLASS PROJECT</span>
+  </div></header>
+  <main id="main" class="container detail-main">
+    <a class="back-link" href="/">〈 전체 차량</a>
+    <div id="detail-status" class="state-panel" role="status" aria-live="polite"><span class="loader" aria-hidden="true"></span><h1>차량을 불러오고 있어요</h1><p>잠시만 기다려 주세요.</p></div>
+    <article id="car-detail" hidden>
+      <div class="detail-heading"><div><p id="detail-category" class="eyebrow"></p><h1 id="detail-title"></h1><p id="detail-trim" class="detail-trim"></p></div><p id="detail-reference" class="reference"></p></div>
+      <div class="detail-layout">
+        <div class="detail-primary">
+          <figure class="detail-figure"><img id="detail-image" src="/assets/cars/sedan-white.svg" alt=""><figcaption>설명용 일러스트 · 실제 차량 사진이 아닙니다</figcaption></figure>
+          <section class="detail-section" aria-labelledby="spec-title"><h2 id="spec-title">차량 기본 정보</h2><dl id="spec-list" class="spec-grid"></dl></section>
+          <section class="detail-section" aria-labelledby="story-title"><h2 id="story-title">판매자의 이야기</h2><p id="detail-description" class="description"></p></section>
+          <section class="detail-section" aria-labelledby="option-title"><h2 id="option-title">주요 옵션</h2><ul id="option-list" class="option-list"></ul></section>
+        </div>
+        <aside class="seller-panel" aria-labelledby="seller-title">
+          <p class="price-label">판매 희망 가격</p><p id="detail-price" class="detail-price"></p><div class="seller-divider"></div>
+          <h2 id="seller-title">판매자 정보</h2><div class="seller-person"><span class="avatar" aria-hidden="true">M</span><div><p id="seller-name" class="seller-name"></p><p id="seller-region" class="seller-region"></p></div></div>
+          <dl class="contact-list"><div><dt>연락처</dt><dd id="seller-phone"></dd></div><div><dt>이메일</dt><dd id="seller-email"></dd></div><div><dt>등록일</dt><dd id="listed-date"></dd></div></dl>
+          <p class="contact-note">가상 판매자 정보입니다.<br>실제 연락이나 거래를 위한 정보가 아닙니다.</p><a class="button button-dark" href="/">다른 차량 둘러보기</a>
+        </aside>
+      </div>
+    </article>
+    <noscript><p class="state-panel">차량 정보를 확인하려면 JavaScript를 허용해 주세요.</p></noscript>
+  </main>
+  <footer class="site-footer container"><a class="footer-brand" href="/">MOTORBOARD<span> / </span>모터보드</a><p>공개SW 실무 · AI 코딩 실습</p></footer>
+</body>
+</html>

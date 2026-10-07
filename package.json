@@ -1,0 +1,13 @@
+{
+  "name": "motorboard-starter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "공개SW 실무: AI Agent와 함께 확장하는 중고차 게시판",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  }
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "id": "MB-001",
+    "brand": "현대",
+    "name": "아반떼",
+    "trim": "1.6 가솔린 인스퍼레이션",
+    "year": 2022,
+    "price": 1820,
+    "mileage": 32400,
+    "fuel": "가솔린",
+    "transmission": "자동",
+    "bodyType": "세단",
+    "color": "화이트",
+    "region": "서울 마포구",
+    "image": "/assets/cars/sedan-white.svg",
+    "description": "주말 나들이와 출퇴근에 이용한 차량입니다. 실내가 밝고 뒷좌석 공간도 편안합니다.\n차량 상태와 정비 내역은 방문 시 함께 확인하는 상황을 가정한 학습용 매물입니다.",
+    "options": [
+      "후방 카메라",
+      "열선 시트",
+      "스마트 키",
+      "내비게이션"
+    ],
+    "createdAt": "2026-09-28",
+    "seller": {
+      "name": "샘플 판매자 01",
+      "phone": "010-XXXX-1001",
+      "email": "seller1@example.com"
+    }
+  },
+  {
+    "id": "MB-002",
+    "brand": "기아",
+    "name": "스포티지",
+    "trim": "1.6 터보 노블레스",
+    "year": 2023,
+    "price": 2890,
+    "mileage": 21800,
+    "fuel": "가솔린",
+    "transmission": "자동",
+    "bodyType": "SUV",
+    "color": "포레스트 그린",
+    "region": "경기 수원시",
+    "image": "/assets/cars/suv-green.svg",
+    "description": "넉넉한 적재 공간이 있는 패밀리 SUV입니다. 평일에는 출퇴근, 주말에는 캠핑을 다니는 용도로 소개합니다.\n차량의 가격, 주행거리, 옵션은 실습을 위해 구성한 가상 정보입니다.",
+    "options": [
+      "후방 카메라",
+      "통풍 시트",
+      "스마트 키",
+      "크루즈 컨트롤"
+    ],
+    "createdAt": "2026-09-27",
+    "seller": {
+      "name": "샘플 판매자 02",
+      "phone": "010-XXXX-1002",
+      "email": "seller2@example.com"
+    }
+  },
+  {
+    "id": "MB-003",
+    "brand": "현대",
+    "name": "쏘나타",
+    "trim": "2.0 가솔린 프리미엄",
+    "year": 2021,
+    "price": 2460,
+    "mileage": 45200,
+    "fuel": "가솔린",
+    "transmission": "자동",
+    "bodyType": "세단",
+    "color": "딥 블루",
+    "region": "인천 연수구",
+    "image": "/assets/cars/sedan-blue.svg",
+    "description": "차분한 블루 컬러의 중형 세단입니다. 장거리 이동과 일상 주행을 모두 고려한 매물로 구성했습니다.\n이 설명은 실제 판매자의 글이 아닌 수업용 예시입니다.",
+    "options": [
+      "내비게이션",
+      "후방 카메라",
+      "전동 시트",
+      "열선 시트"
+    ],
+    "createdAt": "2026-09-26",
+    "seller": {
+      "name": "샘플 판매자 03",
+      "phone": "010-XXXX-1003",
+      "email": "seller3@example.com"
+    }
+  },
+  {
+    "id": "MB-004",
+    "brand": "기아",
+    "name": "모닝",
+    "trim": "1.0 가솔린 프레스티지",
+    "year": 2020,
+    "price": 890,
+    "mileage": 58600,
+    "fuel": "가솔린",
+    "transmission": "자동",
+    "bodyType": "경차",
+    "color": "옐로",
+    "region": "서울 성북구",
+    "image": "/assets/cars/compact-yellow.svg",
+    "description": "도심에서 가볍게 운전하기 좋은 작은 차입니다. 첫 차를 찾는 방문자에게 차량 정보를 보여주는 예시 매물입니다.\n실제 거래는 진행하지 않습니다.",
+    "options": [
+      "후방 센서",
+      "열선 시트",
+      "블루투스",
+      "스마트 키"
+    ],
+    "createdAt": "2026-09-25",
+    "seller": {
+      "name": "샘플 판매자 04",
+      "phone": "010-XXXX-1004",
+      "email": "seller4@example.com"
+    }
+  },
+  {
+    "id": "MB-005",
+    "brand": "기아",
+    "name": "K5",
+    "trim": "2.0 가솔린 노블레스",
+    "year": 2022,
+    "price": 2180,
+    "mileage": 39700,
+    "fuel": "가솔린",
+    "transmission": "자동",
+    "bodyType": "세단",
+    "color": "실버",
+    "region": "경기 고양시",
+    "image": "/assets/cars/sedan-silver.svg",
+    "description": "은색 외관의 중형 세단입니다. 운전석과 뒷좌석 공간, 일상적인 편의 옵션을 소개하기 위한 예시입니다.\n목록에서 본 정보가 상세 화면에도 동일하게 표시되는지 확인해 보세요.",
+    "options": [
+      "내비게이션",
+      "전동 시트",
+      "크루즈 컨트롤",
+      "후방 카메라"
+    ],
+    "createdAt": "2026-09-24",
+    "seller": {
+      "name": "샘플 판매자 05",
+      "phone": "010-XXXX-1005",
+      "email": "seller5@example.com"
+    }
+  },
+  {
+    "id": "MB-006",
+    "brand": "현대",
+    "name": "코나",
+    "trim": "1.6 하이브리드 모던",
+    "year": 2023,
+    "price": 2390,
+    "mileage": 18600,
+    "fuel": "하이브리드",
+    "transmission": "자동",
+    "bodyType": "SUV",
+    "color": "그레이",
+    "region": "서울 강서구",
+    "image": "/assets/cars/suv-gray.svg",
+    "description": "주행거리가 비교적 짧은 소형 SUV로 구성한 가상 매물입니다. 간결한 디자인과 실용적인 공간을 소개합니다.\n가격과 차량 사양은 실제 시세나 제조사 사양을 보증하지 않습니다.",
+    "options": [
+      "스마트 키",
+      "후방 카메라",
+      "열선 시트",
+      "차선 유지 보조"
+    ],
+    "createdAt": "2026-09-23",
+    "seller": {
+      "name": "샘플 판매자 06",
+      "phone": "010-XXXX-1006",
+      "email": "seller6@example.com"
+    }
+  }
+]

@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+coverage/
+
+# cars.json은 수업용 가상 데이터이므로 저장소에 포함합니다.
